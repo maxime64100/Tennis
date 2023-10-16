@@ -7,6 +7,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 public class TennisTest2 {
 
+
     public static Stream<Object[]> getAllScores() {
         return Stream.of(new Object[][]{
                 {0, 0, "Love-All"},
